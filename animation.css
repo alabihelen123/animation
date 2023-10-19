@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(ilustrasion-scene.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    position: absolute;
+    right: 0px;
+}
+.first{
+    padding-top: 500px;
+    animation-name: man;
+    animation-timing-function: ease-in-out;
+    animation-duration: 7s;
+    animation-delay: 0.0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes man {
+    0%{
+        left:0px;
+    }
+    
+    100%{
+        left: 2500px;
+    }
+}
+.second{
+
+    padding-top: 500px;
+    position: relative;
+    right: 250px;
+    animation-name: vehicle;
+    animation-timing-function: ease-in-out;
+    animation-duration: 7s;
+    animation-delay: 0.0s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+
+}
+@keyframes vehicle {
+    0%{
+        left:0px;
+    }
+    100%{
+    left: 2500px;
+    }
+}.third{
+    padding-top: 400px;
+position: absolute;
+bottom: 100px;
+    animation-name: vehicle;
+    animation-timing-function: ease-in-out;
+    animation-duration: 9s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes vehicle {
+    0%{
+        right:0px;
+    }
+    100%{
+    right: 2500px;
+    } 
+}
+.fourth{
+   
+
+ 
+    /* padding-top: 500px;
+    position: relative;
+    right: 150px;
+    animation-name: vehicle;
+    animation-timing-function: ease-in-out;
+    animation-duration: 9s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+@keyframes vehicle {
+    0%{
+        leftt:0px;
+    }
+    100%{
+    left: 2500px;
+    } */
+}
